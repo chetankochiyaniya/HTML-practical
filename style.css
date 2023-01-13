@@ -40,7 +40,6 @@ header {
     min-width: 137px;
     justify-content: flex-end;
     flex-direction: column;
-
 }
 
 .sub-text {
@@ -62,7 +61,6 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    margin-left: 10px;
     margin-right: 90px;
 }
 
@@ -100,7 +98,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
-    margin: 0 20px 0 130px;
+    margin: 0 20px 0 160px;
 }
 
 .login button {
@@ -138,4 +136,41 @@ header {
 
 .cart svg {
     margin-right: 8px;
+}
+
+
+
+/* section 1 css*/
+.section-1 {
+    width: 100%;
+    height: 112px;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+
+.section-1-container {
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.section-1-item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-1-item img {
+    width: 64px;
+    height: 64px;
 }
