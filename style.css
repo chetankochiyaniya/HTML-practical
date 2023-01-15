@@ -33,6 +33,7 @@ header {
     justify-content: center;
     height: 100%;
     width: 100vmax;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
 }
 
 /* logo css */
@@ -149,7 +150,8 @@ header {
     width: 100%;
     height: 112px;
     background-color: white;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+    box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
+    margin-bottom: 5px;
 }
 
 .section-1-container {
@@ -193,7 +195,8 @@ header {
 .section-2 {
     display: flex
 }
-.timer{
+
+.timer {
     color: rgb(161, 161, 161);
     font-size: 18px;
     font-weight: 100;
@@ -216,40 +219,43 @@ header {
     box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
 }
 
-/* common css for card and items */
+/* section-3 css for card */
 
 .card {
     box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
     margin-top: 15px;
     margin-left: 75px;
     margin-right: 0px;
+    margin-bottom: 5px;
     border-radius: 5px;
     background-color: white;
     width: 100%;
     padding-top: 10px;
 }
 
-.common-heading {
+
+/* section-2 card items */
+.section-2-heading {
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
     box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
 }
 
-.common-heading-left h1 {
+.section-2-heading-left h1 {
     font-size: 20px;
     font-weight: 400;
     padding: auto;
 }
 
-.common-heading-left h2 {
+.section-2-heading-left h2 {
     font-size: 15px;
     padding: 5px 0px;
     color: #06cc06;
     font-weight: 200;
 }
 
-.common-heading-right button {
+.section-2-heading-right button {
     width: 90px;
     height: 40px;
     font-size: 18px;
@@ -259,7 +265,7 @@ header {
     border-radius: 2px;
 }
 
-.common-row {
+.section-2-row {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
@@ -267,23 +273,23 @@ header {
     margin: 10px 0px;
 }
 
-.common-col {
+.section-2-col {
     text-align: center;
     line-height: 22px;
     max-width: 150px;
 }
 
-.common-col img {
+.section-2-col img {
     width: 80px;
     height: 150px;
     transition: 300ms;
 }
 
-.common-col img:hover {
+.section-2-col img:hover {
     transform: scale(0.9);
 }
 
-.common-col h3,
+.section-2-col h3,
 h4,
 h6 {
     text-transform: capitalize;
@@ -291,18 +297,18 @@ h6 {
     cursor: pointer;
 }
 
-.common-col h3 {
+.section-2-col h3 {
     margin-top: 10px;
     font-size: 16px;
 }
 
-.common-col h4 {
+.section-2-col h4 {
     color: #06cc06;
     font-size: 14px;
     font-weight: 300;
 }
 
-.common-col h6 {
+.section-2-col h6 {
     color: rgb(161, 161, 161);
     font-size: 12px;
     font-weight: 100;
@@ -342,4 +348,82 @@ h6 {
 .col-headphones img {
     width: 125px;
     height: 150px;
+}
+
+.section-3-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+}
+
+.section-3-heading-left h1 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: auto;
+}
+
+.section-3-heading-left h2 {
+    font-size: 15px;
+    padding: 5px 0px;
+    color: #06cc06;
+    font-weight: 200;
+}
+
+.section-3-heading-right button {
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #2874f0;
+    border: none;
+    color: white;
+    border-radius: 2px;
+}
+
+.section-3-row {
+    display: flex;
+    width: 100%;
+    max-height: 366px;
+    margin: 10px 0px;
+}
+
+.section-3-col {
+    text-align: center;
+    line-height: 22px;
+    margin: 0 10px;
+}
+
+.section-3-col img {
+    width: 75px;
+    height: 150px;
+    transition: 300ms;
+}
+
+.section-3-col img:hover {
+    transform: scale(0.9);
+}
+
+.section-3-col h3,
+h4,
+h6 {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.section-3-col h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.section-3-col h4 {
+    color: #06cc06;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.section-3-col h6 {
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    font-weight: 100;
 }
