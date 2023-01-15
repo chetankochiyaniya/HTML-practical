@@ -303,3 +303,19 @@ header {
     height: 150px;
 }
 
+
+.next{
+    background-color: white;
+    box-shadow: 5px;
+    width: 35px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 330px;
+    right: 317px;
+    text-align-last: right;
+    transform: rotate(180deg);
+    box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
+}
