@@ -8,6 +8,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f1f3f6;
+    overflow-x: hidden;
 }
 
 /* we can create css variable and use it with name */
@@ -22,7 +23,7 @@ body {
 /* Header css */
 header {
     background-color: var(--navcolor);
-    height: 56px;
+    height: 60px;
     width: 100%;
 }
 
@@ -180,19 +181,32 @@ header {
 
 
 
-/*  section 2 css */
+
+
+
+/*  section 2 */
+
+.section-2{
+    display: flex
+}
+
+
+/* common css for card and items */
 
 .card{
     box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
-    padding: 10px 0px;
-    margin: 10px 5px;
+    margin-top: 15px;
+    margin-left: 75px;
+    margin-right: 0px;
     border-radius: 5px;
+    background-color:white;
+    width: 100%;
+    padding-top: 10px;
 }
  .common-heading{
      display: flex;
      justify-content: space-between;
      padding: 5px 20px;
-     margin-top: 20px;
      box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
  }
  .common-heading-left h1{
@@ -203,7 +217,7 @@ header {
  .common-heading-left h2{
      font-size: 15px;
      padding: 5px 0px;
-     color: rgb(145,141,138) ;
+     color: #06cc06;
      font-weight: 200;
  }
  .common-heading-right button{
@@ -244,7 +258,7 @@ header {
      font-size: 16px;
  }
  .common-col h4{
-     color: green;
+     color: #06cc06;
      font-size: 14px;
      font-weight: 300;
  }
@@ -253,4 +267,39 @@ header {
     font-size: 12px;
     font-weight: 100;
  }
+
+
+/* side banner css*/
+
+ .side-card{
+    box-shadow: rgb(177,174,174) 0px 0px 5px 1px;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 75px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color:white;
+    width:20%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.side-card img {
+    height: 325px;
+}
+
+
+/* section - 3 css*/
+
+.section-3{
+    display: flex;
+    margin-right: 75px;
+    margin-bottom: 75px;
+}
+
+.col-headphones img{
+    width: 125px;
+    height: 150px;
+}
 
