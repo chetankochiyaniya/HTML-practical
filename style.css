@@ -1,429 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f1f3f6;
-    overflow-x: hidden;
+    background-color: #f1f3f6
 }
 
-/* we can create css variable and use it with name */
-:root {
-    --navcolor: #2874f0;
+.theme-color {
+    background-color: #2874f0
 }
 
-.container {
-    padding: 0 8px;
+.mx-10 {
+    margin-right: 4rem;
+    margin-left: 4rem
 }
 
-/* Header css */
-header {
-    background-color: var(--navcolor);
-    height: 60px;
-    width: 100%;
+.ms-10 {
+    margin-left: 4rem
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100vmax;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+.me-10 {
+    margin-right: 4rem
 }
 
-/* logo css */
-.logo {
-    display: flex;
-    min-width: 137px;
-    justify-content: flex-end;
-    flex-direction: column;
+.logo_img {
+    width: 80px
 }
 
-.sub-text {
-    font-size: 15px;
-    font-family: italic;
-    color: #f1f3f6;
-}
-
-#plus-text {
-    font-size: 15px;
-    font-family: italic;
-    color: #ffe500;
-}
-
-
-
-/* search box css */
-.search {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin-right: 90px;
-}
-
-.search-container {
-    width: 540px;
-    height: 36px;
-    background-color: white;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%);
-    display: flex;
-}
-
-.search-container input {
-    width: calc(100% - 32px);
-    padding: 16px;
-    outline: none;
-    border: none;
-}
-
-.search-container button {
-    width: 36px;
-    height: 100%;
-    padding: 0 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    background-color: white;
-    border-radius: 0 2px 2px 0;
-    cursor: pointer;
-}
-
-/* login css */
-.login {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0 20px 0 160px;
-
-}
-
-.login button {
-    width: 122px;
-    padding: 5px 40px;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--navcolor);
-    background-color: white;
-    border: none;
-}
-
-/*more btn css */
-.more {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-    color: white;
-    font-size: 16px;
+.brand-text {
+    font-style: italic;
     font-weight: 500;
-}
-
-.more svg {
-    margin-left: 8px;
-    rotate: -90deg;
-}
-
-/* cart btn css */
-.cart {
-    height: 100%;
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-    color: white;
-}
-
-.cart svg {
-    margin-right: 8px;
-}
-
-
-
-/* section 1 css*/
-.section-1 {
-    width: 100%;
-    height: 112px;
-    background-color: white;
-    box-shadow: rgb(177 174 174) 0px 0px 5px 1px;
-    margin-bottom: 5px;
-}
-
-.section-1-container {
-    width: 1280px;
-    margin: 0 auto;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-
-}
-
-.section-1-item {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
     font-size: 14px;
+    margin-top: -2px !important
+}
+
+.btn-login {
+    border-radius: 0;
+    background-color: #fff;
     font-weight: 500;
+    color: #2874f0;
+    padding: 5px 35px
 }
 
-.section-1-item img {
-    width: 64px;
-    height: 64px;
+.search-form {
+    width: 576px;
+    background-color: #fff
 }
 
-.section-1-item svg {
-    margin-left: 8px;
-    rotate: -90deg;
+.search-input {
+    padding: 5px 16px;
+    border-radius: 0;
+    border: 0
 }
 
-
-
-
-
-/*  section 2 */
-
-.section-2 {
-    display: flex
+.search-btn {
+    border-radius: 0;
+    background-color: #fff;
+    color: #2874f0;
+    padding: 5px 10px;
+    border: 0
 }
 
-.timer {
-    color: rgb(161, 161, 161);
-    font-size: 18px;
-    font-weight: 100;
+.category {
+    background-color: #fff;
+    overflow-x: auto
 }
 
-/* carusel button css */
-.next {
-    background-color: white;
-    box-shadow: 5px;
-    width: 35px;
-    height: 95px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 330px;
-    right: 317px;
-    text-align-last: right;
-    transform: rotate(180deg);
-    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
+.sub-category {
+    padding: 10px 0
 }
 
-/* section-3 css for card */
-
-.card {
-    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
-    margin-top: 15px;
-    margin-left: 75px;
-    margin-right: 0px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    background-color: white;
-    width: 100%;
-    padding-top: 10px;
+.sub-category a {
+    text-decoration: none;
+    color: #000
 }
 
-
-/* section-2 card items */
-.section-2-heading {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+.sub-category i {
+    font-size: 12px
 }
 
-.section-2-heading-left h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding: auto;
-}
-
-.section-2-heading-left h2 {
-    font-size: 15px;
-    padding: 5px 0px;
-    color: #06cc06;
-    font-weight: 200;
-}
-
-.section-2-heading-right button {
-    width: 90px;
-    height: 40px;
-    font-size: 18px;
-    background-color: #2874f0;
-    border: none;
-    color: white;
-    border-radius: 2px;
-}
-
-.section-2-row {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    max-height: 366px;
-    margin: 10px 0px;
-}
-
-.section-2-col {
-    text-align: center;
-    line-height: 22px;
-    max-width: 150px;
-}
-
-.section-2-col img {
-    width: 80px;
-    height: 150px;
-    transition: 300ms;
-}
-
-.section-2-col img:hover {
-    transform: scale(0.9);
-}
-
-.section-2-col h3,
-h4,
-h6 {
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.section-2-col h3 {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.section-2-col h4 {
-    color: #06cc06;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.section-2-col h6 {
-    color: rgb(161, 161, 161);
-    font-size: 12px;
-    font-weight: 100;
-}
-
-
-/* side banner css*/
-
-.side-card {
-    box-shadow: rgb(177, 174, 174) 0px 0px 5px 1px;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 75px;
-    padding: 0px;
-    border-radius: 5px;
-    background-color: white;
-    width: 20%;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 5px;
-}
-
-.side-card img {
-    height: 325px;
-    width: -webkit-fill-available;
-}
-
-
-/* section - 3 css*/
-
-.section-3 {
-    display: flex;
-    margin-right: 75px;
-    margin-bottom: 75px;
-}
-
-.col-headphones img {
-    width: 125px;
-    height: 150px;
-}
-
-.section-3-heading {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 20px;
-    box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
-}
-
-.section-3-heading-left h1 {
-    font-size: 20px;
-    font-weight: 400;
-    padding: auto;
-}
-
-.section-3-heading-left h2 {
-    font-size: 15px;
-    padding: 5px 0px;
-    color: #06cc06;
-    font-weight: 200;
-}
-
-.section-3-heading-right button {
-    width: 90px;
-    height: 40px;
-    font-size: 18px;
-    background-color: #2874f0;
-    border: none;
-    color: white;
-    border-radius: 2px;
-}
-
-.section-3-row {
-    display: flex;
-    width: 100%;
-    max-height: 366px;
-    margin: 10px 0px;
-}
-
-.section-3-col {
-    text-align: center;
-    line-height: 22px;
-    margin: 0 10px;
-}
-
-.section-3-col img {
-    width: 75px;
-    height: 150px;
-    transition: 300ms;
-}
-
-.section-3-col img:hover {
-    transform: scale(0.9);
-}
-
-.section-3-col h3,
-h4,
-h6 {
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-.section-3-col h3 {
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.section-3-col h4 {
-    color: #06cc06;
-    font-size: 14px;
-    font-weight: 300;
-}
-
-.section-3-col h6 {
-    color: rgb(161, 161, 161);
-    font-size: 12px;
-    font-weight: 100;
+.sub-category img {
+    height: 70px
 }
