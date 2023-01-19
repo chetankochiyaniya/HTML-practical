@@ -25,9 +25,11 @@ body {
 
 .brand-text {
     font-style: italic;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    margin-top: -2px !important
+    margin-top: -6px !important;
+    margin-left: 10px !important;
+    
 }
 
 .btn-login {
@@ -35,12 +37,63 @@ body {
     background-color: #fff;
     font-weight: 500;
     color: #2874f0;
-    padding: 5px 35px
+    padding: 3px 35px;
+    margin-top: 4px;
 }
 
 .search-form {
     width: 576px;
     background-color: #fff
+}
+@media (min-width:1400px){
+    .search-form{
+        width: 576px !important;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .search-form{
+        width: 500px !important;
+    }
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .search-form{
+        margin-right: 33px !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .search-form{
+        width: 456px !important;
+    }
+    .ms-10{
+        margin-left: 0 !important;
+    }
+    .me-4{
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width:440px) and (max-width:767px) {
+    .search-form{
+        width: 255px !important;
+    }
+    .ms-10{
+        margin-left: 0 !important;
+    }
+    .me-4{
+        margin-right: 0 !important;
+    }
+}
+@media (max-width: 439px){
+    .search-form{
+        order: 1;
+    }
+    .ms-10{
+        margin-left: 0 !important;
+    }
+    .me-4{
+        margin-right: 0 !important;
+    }
 }
 
 .search-input {
