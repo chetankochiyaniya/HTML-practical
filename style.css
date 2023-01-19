@@ -7,6 +7,9 @@
     .m-2 {
         margin: 2rem !important;
     }
+    .product {
+        padding: 4px 10px !important;
+    }
 }
 
 @media (min-width:1200px) and (max-width:1399px) {
@@ -15,6 +18,9 @@
     }
     .m-2 {
         margin: 2rem !important;
+    }
+    .product {
+        padding: 4px 10px !important;
     }
 }
 
@@ -46,7 +52,7 @@
     }
 
     .advertise-img img {
-        height: 340px !important;
+        height: 326px !important;
     }
     .m-2 {
         margin: 2rem !important;
@@ -78,6 +84,9 @@
     }
     .category{
         display: none;
+    }
+    .product {
+        padding: 4px 10px !important;
     }
 }
 
@@ -164,6 +173,10 @@ body {
 
 .theme-color {
     background-color: #2874f0
+}
+
+.sh{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 23%) !important;
 }
 
 .mx-10 {
@@ -318,7 +331,7 @@ Deal of the Day
 
 #deal-of-the-day .advertise-img img {
     width: -webkit-fill-available;
-    height: 399px;
+    height: 347px;
 }
 
 #deal-of-the-day .advertise-img {
