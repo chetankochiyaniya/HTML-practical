@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./style.css">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
-     <!-- link the fav-icon-->
-     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <!-- link the fav-icon-->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <title>Flipkart</title>
 </head>
 
@@ -25,7 +25,8 @@
             <div class="d-flex align-items-center flex-column me-4 ms-10">
                 <a class="navbar-brand p-0 mx-auto" href="#"><img src="./images/flipkart_logo.png" class="logo_img"
                         alt="" srcset=""></a>
-                <p class="p-0 m-0 text-white brand-text d-flex">Explore <span style="color: #ffe500; margin: 0 2px;"> Plus</span><img src="./images/plus.png" height="15px"></p>
+                <p class="p-0 m-0 text-white brand-text d-flex">Explore <span style="color: #ffe500; margin: 0 2px;">
+                        Plus</span><img src="./images/plus.png" height="15px"></p>
             </div>
             <form class="d-flex search-form" role="search">
                 <input class="form-control me-2 search-input" type="search"
@@ -65,7 +66,7 @@
     </nav>
     <div class="category py-2">
         <div class="container">
-            <div class="d-flex align-items-center justify-content-between mx-10">
+            <div class="d-flex align-items-center justify-content-between">
                 <div class="sub-category text-center">
                     <a href="#">
                         <img src="./images/category/offer.webp" alt="Category">
@@ -123,7 +124,103 @@
             </div>
         </div>
     </div>
-
+    <section id="deal-of-the-day">
+        <div class="container-fluid">
+            <div class="row m-2">
+                <div class="col-lg-10">
+                    <div class="deal-of-the-day">
+                        <div class="deal-header d-flex align-items-center justify-content-between">
+                            <h4 class="m-0">Deals of the Day</h4>
+                            <button class="btn btn-view">View All</button>
+                        </div>
+                        <div class="owl-carousel owl-theme wow fadeInDown deal-body d-flex" data-wow-duration="1s"
+                            data-wow-delay="1s" id="one">
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p1.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">Poco m2 pro</p>
+                                    <p class="product-price">Extra 20% off</p>
+                                    <p class="product-des">Now <i style="font-size:15px" class="fa">&#xf156;</i>13999
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p2.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">techo spark</p>
+                                    <p class="product-price">Extra 10%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p3.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">vivio</p>
+                                    <p class="product-price">Extra 50%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p4.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">samsung</p>
+                                    <p class="product-price">Extra 10%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p5.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">realme</p>
+                                    <p class="product-price">Extra 30%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p6.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">oppo pro</p>
+                                    <p class="product-price">Extra 10%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./images/products/p7.jpeg" alt="smart phone">
+                                    </div>
+                                    <p class="product-name">samsung</p>
+                                    <p class="product-price">Extra 20%Off</p>
+                                    <p class="product-des">Now <i style="font-size:11px"
+                                            class="fa">&#xf156;</i></i>14999</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 advertise-img">
+                    <img src="./images/products/side-banner.webp" alt="ads banner" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
