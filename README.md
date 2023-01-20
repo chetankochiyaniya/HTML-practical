@@ -2,7 +2,7 @@
 
 ## Git Branch :
 #### HTML practical => main branch
-#### Bootstrap practical => bootstrap branch
+#### Bootstrap practical => bootstrap branch (https://github.com/chetankochiyaniya/HTML-practical/tree/bootstrap)
 
 ================================
 
